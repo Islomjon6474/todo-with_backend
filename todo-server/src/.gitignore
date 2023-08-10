@@ -1,0 +1,25 @@
+# Ignore Node.js runtime files
+node_modules/
+.node_repl_history
+
+# Ignore logs and other generated files
+logs/
+*.log
+npm-debug.log*
+
+# Ignore environment-specific files
+.env
+.env.local
+.env.*.local
+
+# Ignore IDE and editor-specific files
+.vscode/
+.idea/
+
+# Ignore configuration files with sensitive data
+config.js
+.config.json
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
